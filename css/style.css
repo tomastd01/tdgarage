@@ -1,0 +1,689 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+}
+
+/* HEADER STYLE */ 
+
+header {
+    height: 80px;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    height: 80px;
+    padding: 0 50px 0 0;
+}
+
+.logo__img {
+    width: 55px;
+    opacity: 90%;
+}
+
+.logo__text-wrapper {
+    line-height: 22px;
+    padding: 0 10px 0 3px;
+}
+
+.logo__text-1 {
+    font-weight: 300;
+    font-size: 27px;
+    color: #E90000;
+    margin: 10px 0 0 0;
+}
+ 
+.logo__text-2 {
+    font-weight: 300;
+    font-size: 16px;
+    color: #000;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav__bar {
+    display: flex;
+}
+
+.nav__item {
+    list-style: none;
+    font-size: 18px;
+    font-weight: 300
+}
+
+.nav__link {
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px 10px;
+    color: #000;
+}
+
+.nav__link--color-red {
+    color: #E90000;
+    font-weight: 500;
+}
+ 
+.menu, .menu__img {
+    display: none;
+}
+
+/* PRINCIPAL SECTION */ 
+
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;
+}
+
+.principal__img {
+    width: 100vw;
+    height: 90vh;
+    background-image: url(../images/dodge.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.principal__title {
+    margin-bottom: 50px;
+    font-size: 70px;
+    font-weight: 700;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.brands {
+    background-color: #ECECEC;
+    height: 100px;
+}
+
+
+/* ABOUT US */
+
+.about-us {
+    background-color: #FAFAFA;
+    height: 460px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us__img {
+    width: 40vw;
+    height: 300px;
+    margin: 0 60px 0 0;
+    background-image: url(../images/engine.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.about-us__content {
+    width: 30vw;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.about-us__title {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.about-us__text {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.line {
+    width: 100px;
+    height: 4px;
+    background-color: #E90000;
+}
+
+/* WHY CHOOSE US */
+
+.why {
+    height: 500px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.why__title {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.card-container {
+    display: flex;
+} 
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    height: 230px;
+    width: 200px;
+    padding: 0 50px;
+}
+
+.card__img-wrapper {
+    height: 70px;
+    width: 70px;
+    border: 2px solid #E90000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__img {
+    width: 70%;
+}
+
+.card_title {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.card_text {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* FOOTER */
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
+    background-color: #505050;
+}
+
+.footer-logo__img {
+    width: 90px;
+    opacity: 85%;
+}
+
+.footer-nav {
+    display: flex;
+}
+
+.footer-nav__item {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.footer-nav__link {
+    text-decoration: none;
+    margin: 3px;
+    padding: 10px 10px;
+    color: #FFF;
+}
+
+.copy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: #FAFAFA;
+}
+
+.copy__text {
+    font-size: 11px;
+    font-weight: 300;
+}
+
+/* Services */
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.title__bg {
+    width: 100vw;
+    height: 250px;
+    background-image: url(../images/car.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title__h1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.services {
+    background-color: #FAFAFA;
+    padding: 60px 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    gap: 60px 50px;
+}
+
+.service-card {
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.service-card--bg-img1 {
+    justify-self: end;
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.service-card--bg-img2 {
+    background-image: url(../images/2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.service-card--bg-img3 {
+    justify-self: start;
+    background-image: url(../images/3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.service-card--bg-img4 {
+    justify-self: end;
+    background-image: url(../images/4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.service-card--bg-img5 {
+    background-image: url(../images/5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.service-card--bg-img6 {
+    justify-self: start;
+    background-image: url(../images/6.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.service-card__title {
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFF;
+    margin-bottom: 30px;
+}
+
+.thin {
+    font-weight: 300;
+    margin-top: -30px;
+}
+
+.brands-red {
+    background-color: #E73B3B;
+    height: 100px;
+}
+
+.scanner {
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: center;
+    padding: 60px 60px;
+}
+
+.scanner__img {
+    width: 40vw;
+    background-image: url(../images/scan.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.scanner-content {
+    margin: 0px 80px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.scanner-content__title {
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.title--color-red {
+    color: #E90000;
+}
+
+.scanner-content__text {
+    color: #FFF;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/* Contact */
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 50px 60px;
+    height: 540px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 90%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+    width: 500px;
+}
+
+.field {
+    height: 30px;
+    width: 80%;
+    background-color: gainsboro;
+    border: none;
+}
+
+.textarea {
+    background-color: gainsboro;
+    border: none;
+    width: 80%;
+}
+
+.submit {
+    height: 30px;
+    width: 100px;
+    background-color: #E90000;
+    color: #FFF;
+    border: none;
+}
+
+.info {
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .nav {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+    }
+
+    .menu__img {
+        width: 100%;
+        display: inline;
+    }
+
+    .principal__title-wrapper {
+        width: 200px;
+    }
+
+    /* About us */
+    
+    .about-us__img {
+        width: 35vw;
+        margin: 0 40px 0 0;
+    }
+    
+    .about-us__content {
+        width: 35vw;
+    }
+
+    .about-us__title {
+        font-size: 28px;
+    }
+    
+    .about-us__text {
+        font-size: 16px;
+    }
+
+    .line {
+        width: 70px;
+    }
+
+    /* Why choose us */
+
+    .why {
+        height: 900px;
+    }
+    
+    .why__title {
+        font-size: 28px;
+    }
+    
+    .card-container {
+        height: 720px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    } 
+    
+    .card {
+        width: 280px;
+        padding: 25px 0;
+    }
+    
+    .card__title {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    .card__text {
+        font-size: 16px;
+    }
+
+    /* services */
+
+    .services {
+        background-color: #FAFAFA;
+        padding: 60px 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-items: center;
+        gap: 60px 60px;
+    }
+    
+    .service-card--bg-img1 {
+        justify-self: end;
+    }
+    .service-card--bg-img2 {
+        justify-self: start;
+    }
+    .service-card--bg-img3 {
+        justify-self: end;
+    }
+    .service-card--bg-img4 {
+        justify-self: start;
+    }
+    .service-card--bg-img5 {
+        justify-self: end;
+    }    
+    .service-card--bg-img6 {
+        justify-self: start;
+    }
+
+    .scanner-content__text {
+        font-size: 16px;
+    }
+
+    /* contact */
+
+    .contact {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 630px;
+    }
+
+    .info {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .about-us__img {
+        display: none;
+    }
+
+    .about-us__content {
+        width: 70vw;
+        align-items: center;
+    }
+    
+    .about-us__title {
+        font-size: 25px;
+    }
+
+    .about-us__text {
+        text-align: center;
+    }
+
+    .brands {
+        height: 80px;
+    }
+
+    .brands-red {
+        height: 80px;
+    }
+
+    .why__title {
+        font-size: 25px;
+    }
+
+    .footer-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-nav__item {
+        font-size: 14px;
+    }
+
+    /* services */
+
+    .title__bg {
+        height: 200px;
+    }
+
+    .title__wrapper {
+        width: 300px;
+    }
+
+    .title__h1 {
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .services {
+        background-color: #FAFAFA;
+        padding: 60px 40px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 60px 60px;
+    }
+
+    .service-card--bg-img1, .service-card--bg-img2, .service-card--bg-img3, .service-card--bg-img4, .service-card--bg-img5, .service-card--bg-img6  {
+        justify-self: center;
+    }    
+
+    /* scanner */
+
+    .scanner {
+        background-color: #1E1E1E;
+        display: flex;
+        padding: 60px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .scanner-content {
+        margin: 0px;
+        width: 70vw;
+        text-align: center;
+
+    }
+    
+    .scanner-content__title {
+        color: #FFF;
+        text-transform: uppercase;
+    }
+    
+    .title--color-red {
+        color: #E90000;
+    }
+    
+    .scanner-content__text {
+        color: #FFF;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .form {
+        width: 300px;
+    }
+}
