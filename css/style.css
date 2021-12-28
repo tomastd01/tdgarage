@@ -206,6 +206,13 @@ h1 {
     background-repeat: no-repeat;
 }
 
+.red-btn {
+    background-color: #d83939;
+}
+
+.red-btn:hover {
+    background-color: #e74343;
+}
 
 @media screen and (min-width: 992px) {
     
