@@ -1,0 +1,37 @@
+@import 'variables';
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
+    background-color: $bg-gray;
+}
+
+.footer-logo {
+    opacity: 85%;
+
+    &__img {
+        width: 70px;
+    }
+}
+
+.footer-nav {
+
+    &__item {
+        list-style: none;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    &__link {
+        margin: 3px;
+        padding: 10px 0px;
+        color: $bg-white;
+
+        &:hover {
+            color: $bg-white;
+        }
+    }
+}

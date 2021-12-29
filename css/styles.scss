@@ -1,0 +1,187 @@
+@use 'footer';
+@import 'variables';
+
+@mixin bg-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: $font;
+    background-color: $bg-white;
+    font-weight: 300;
+    font-size: 1.1rem;    
+}
+
+header {
+    background-color: $bg-white;
+}
+
+.nav-link {
+    transition: all 300ms ease;
+
+    &:hover {
+        background-color: $red-1;
+        color: $bg-white !important; 
+    }
+}
+
+.red-color {
+    color: $red-2;
+}
+
+.principal {
+    height: 90vh;
+    background-image: url(../images/dodge-bg.jpg);
+    @include bg-image;
+
+    &__title {
+        font-size: 5rem;
+        font-weight: 700;
+        color: $bg-white;
+    }
+}
+
+.brands-red {
+    background-color: $red-1;
+    height: 80px;
+}
+
+.brands {
+    height: 100px;
+    background-color: #ECECEC;
+}
+
+.about-us__img {
+    height: 250px;
+    background-image: url(../images/engine.jpg);
+    @include bg-image;
+}
+
+.card {
+    background-color: $bg-white;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    transition: all 400ms ease-in-out;
+
+    &:hover {
+        border-color: $red-1 !important;
+    }
+
+    &__img-wrapper {
+        height: 70px;
+        width: 70px;
+        border:2px solid $red-2;
+        transform: rotate(45deg);
+
+        img {
+            width: 80%;
+        }
+
+        .img2 {
+            transform: rotate(-90deg);
+        }
+
+        .img3 {
+            transform: rotate(-45deg);
+        }
+    }
+}
+
+.line {
+    background-color: $red-2;
+    width: 100px;
+    height: 4px;
+}
+
+.copy {
+    height: 30px;
+    background-color: $bg-white;
+
+    &__text {
+        font-size: .7rem;
+        font-weight: 300px;
+    }
+}
+
+
+.title__bg {
+    height: 250px;
+    background-image: url(../images/car.jpg);
+    @include bg-image;
+}
+
+.title__h1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: $bg-white;
+}
+
+.service__img {
+    width: 250px;
+    height: 400px;
+}
+
+.img_1 {
+    background-image: url(../images/1.jpg);
+    @include bg-image;
+}
+.img_2 {
+    background-image: url(../images/2.jpg);
+    @include bg-image;
+}
+.img_3 {
+    background-image: url(../images/3.jpg);
+    @include bg-image;
+}
+.img_4 {
+    background-image: url(../images/4.jpg);
+    @include bg-image;
+}
+.img_5 {
+    background-image: url(../images/5.jpg);
+    @include bg-image;
+}
+.img_6 {
+    background-image: url(../images/6.jpg);
+    @include bg-image;
+}
+
+#galeria {
+    display: none;
+}
+
+#diagnostico, .background {
+    background-color: $bg-dark;
+}
+
+.scanner__img {
+    height: 300px;
+    background-image: url(../images/scan.jpg);
+    @include bg-image;
+}
+
+.red-btn {
+    background-color: $red-1;
+}
+
+.red-btn:hover {
+    background-color: $red-3;
+}
+
+@media screen and (min-width: 992px) {
+    
+    #carouselExampleCaptions {
+        display: none;
+    }
+
+    #galeria {
+        display: block;
+    }
+    
+}
