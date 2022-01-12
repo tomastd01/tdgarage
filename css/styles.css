@@ -1,31 +1,50 @@
-.footer-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  height: 200px;
-  background-color: #505050;
+footer {
+  background-color: #797979;
+  font-size: 16px;
 }
 
-.footer-logo {
-  opacity: 85%;
-}
-.footer-logo__img {
-  width: 70px;
+.fab {
+  font-size: 30px;
+  padding: 4px;
 }
 
-.footer-nav__item {
+.links, .cont {
   list-style: none;
-  font-size: 1rem;
-  font-weight: 300;
-}
-.footer-nav__link {
-  margin: 3px;
-  padding: 10px 0px;
   color: #fafafa;
 }
-.footer-nav__link:hover {
+.links__link {
   color: #fafafa;
+}
+.links__link:hover {
+  color: #fafafa;
+}
+
+.ico--fb {
+  color: #292929;
+}
+.ico--fb:hover {
+  color: #0078F7;
+}
+
+.ico--ig {
+  color: #292929;
+}
+.ico--ig:hover {
+  color: #DD2A7B;
+}
+
+.ico--wp {
+  color: #292929;
+}
+.ico--wp:hover {
+  color: #45C554;
+}
+
+.ico--tg {
+  color: #292929;
+}
+.ico--tg:hover {
+  color: #28A8E9;
 }
 
 html {
@@ -192,7 +211,7 @@ header {
 }
 
 #diagnostico, .background {
-  background-color: #1e1e1e;
+  background-color: #292929;
 }
 
 .scanner__img {
