@@ -47,10 +47,33 @@ header {
     }
 }
 
-.brands-red {
+.reserva {
     background-color: $red-1;
     height: 80px;
+
+    &__text {
+        color: $bg-white;
+        font-weight: 300;
+        font-size: 1.1em;
+        margin: 0 50px;
+    }
+
+    &__link {
+        color: $bg-white;
+        border: solid 2px $bg-white;
+        padding: 6px 16px;
+        margin-right: 50px;
+        transition: all 400ms;
+
+        &:hover {
+            text-decoration: none;
+            color: #FFF;
+            transform: scale(1.05);
+        }
+    }
 }
+
+
 
 .brands {
     height: 100px;

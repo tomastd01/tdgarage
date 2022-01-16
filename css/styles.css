@@ -87,9 +87,27 @@ header {
   color: #fafafa;
 }
 
-.brands-red {
+.reserva {
   background-color: #d83939;
   height: 80px;
+}
+.reserva__text {
+  color: #fafafa;
+  font-weight: 300;
+  font-size: 1.1em;
+  margin: 0 50px;
+}
+.reserva__link {
+  color: #fafafa;
+  border: solid 2px #fafafa;
+  padding: 6px 16px;
+  margin-right: 50px;
+  transition: all 400ms;
+}
+.reserva__link:hover {
+  text-decoration: none;
+  color: #FFF;
+  transform: scale(1.05);
 }
 
 .brands {
