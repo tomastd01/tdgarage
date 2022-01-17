@@ -76,9 +76,17 @@ header {
 
 
 .brands {
-    height: 100px;
-    background-color: #ECECEC;
+    height: 80px;
+    margin: 40px 0;
+    background-color: $bg-white;
+
+    &__img {
+        height: 50px;
+        margin: 20px;
+        opacity: 0.6;
+    }
 }
+
 
 .about-us__img {
     height: 250px;
