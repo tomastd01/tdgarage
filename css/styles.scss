@@ -89,6 +89,7 @@ header {
 
 
 .about-us__img {
+    height: 250px;
     background-image: url(../images/engine.jpg);
     @include bg-image;
 }
@@ -204,6 +205,10 @@ header {
     background-color: $red-3;
 }
 
+.dis {
+    display: none;
+}
+
 @media screen and (min-width: 992px) {
     
     #carouselExampleCaptions {
@@ -212,6 +217,10 @@ header {
 
     #galeria {
         display: block;
+    }
+
+    .dis {
+        display: inline;
     }
     
 }
