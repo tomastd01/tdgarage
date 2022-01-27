@@ -1,3 +1,4 @@
+@use 'why';
 @use 'footer';
 @import 'variables';
 
@@ -102,25 +103,6 @@ header {
 
     &:hover {
         border-color: $red-1 !important;
-    }
-
-    &__img-wrapper {
-        height: 70px;
-        width: 70px;
-        border:2px solid $red-2;
-        transform: rotate(45deg);
-
-        img {
-            width: 80%;
-        }
-
-        .img2 {
-            transform: rotate(-90deg);
-        }
-
-        .img3 {
-            transform: rotate(-45deg);
-        }
     }
 }
 

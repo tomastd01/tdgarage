@@ -1,0 +1,73 @@
+@import 'variables';
+
+.crd-container {
+    display: grid;
+    grid: 1fr 1fr / 1fr 1fr;
+    justify-items: center;
+}
+
+.crd {
+    width: 90%;
+    height: 200px;
+    margin: 20px;
+
+    &__content {
+        padding: 0 40px 0 20px;
+
+    }
+
+    &__title {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    &__text {
+        font-size: 14px;
+    }
+}
+
+
+.circle {
+    width: 120px;
+    height: 120px;
+    background-color: $red-1;
+    border-radius: 50%;
+    margin: 0 0 0 40px;
+    flex-shrink: 0;  
+}
+
+.ico {
+    width: 50%;
+}
+
+@media screen and (max-width: 992px) {
+
+    .crd-container {
+        display: grid;
+        grid: 1fr / 1fr;
+    }
+
+    .crd {
+        width: 80%;
+        height: 300px;
+        margin: 30px 20px;
+    
+        &__content {
+            padding: 0 30px;
+            text-align: center;
+        }
+    
+        &__title {
+            font-size: 20px;
+            font-weight: 700;
+        }
+    
+        &__text {
+            font-size: 16px;
+        }
+    }
+
+    .circle {
+        margin: 0 0 15px;
+    }
+}
