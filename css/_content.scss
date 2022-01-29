@@ -1,5 +1,58 @@
 @import 'variables';
 
+// ABOUT US // 
+
+.us__title {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.us__text {
+    width: 450px;
+}
+
+.us__btn {
+    background-color: $red-1;
+    color: white;
+    padding: 15px 50px;
+    font-weight: 500;
+    border-radius: 50px;
+    font-size: 18px;
+
+    animation: all 500ms ;
+    
+    &:hover {
+        text-decoration: none;
+        color: white;
+    } 
+}
+
+.us__circle {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: $red-1;
+}
+
+.us__circle2 {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: repeating-linear-gradient( 180deg, $bg-white, $bg-white 10px, $red-1 10px, $red-1 20px);
+    position: absolute;
+    right: 100px;
+}
+
+.us__img {
+    width: 400px;
+    box-shadow: 5px 5px 20px rgba(0,0,0, 0.5);
+    position: absolute;
+    top: 1150px;
+    right: 320px;
+}
+
+// WHY CHOOSE US //
+
 .crd-container {
     display: grid;
     grid: 1fr 1fr / 1fr 1fr;
@@ -28,8 +81,8 @@
 
 
 .circle {
-    width: 120px;
-    height: 120px;
+    width: 130px;
+    height: 130px;
     background-color: $red-1;
     border-radius: 50%;
     margin: 0 0 0 40px;
@@ -39,6 +92,8 @@
 .ico {
     width: 50%;
 }
+
+
 
 @media screen and (max-width: 992px) {
 

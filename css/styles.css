@@ -1,3 +1,50 @@
+.us__title {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.us__text {
+  width: 450px;
+}
+
+.us__btn {
+  background-color: #d83939;
+  color: white;
+  padding: 15px 50px;
+  font-weight: 500;
+  border-radius: 50px;
+  font-size: 18px;
+  animation: all 500ms;
+}
+.us__btn:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.us__circle {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: #d83939;
+}
+
+.us__circle2 {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: repeating-linear-gradient(180deg, #fafafa, #fafafa 10px, #d83939 10px, #d83939 20px);
+  position: absolute;
+  right: 100px;
+}
+
+.us__img {
+  width: 400px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 1150px;
+  right: 320px;
+}
+
 .crd-container {
   display: grid;
   grid: 1fr 1fr/1fr 1fr;
@@ -21,8 +68,8 @@
 }
 
 .circle {
-  width: 120px;
-  height: 120px;
+  width: 130px;
+  height: 130px;
   background-color: #d83939;
   border-radius: 50%;
   margin: 0 0 0 40px;
@@ -120,8 +167,8 @@ body {
   font-size: 1.1rem;
 }
 
-header {
-  background-color: #fafafa;
+header, .navbar {
+  background-color: #fafafa !important;
 }
 
 .nav-link {
@@ -137,16 +184,17 @@ header {
 }
 
 .principal {
-  height: 90vh;
+  height: 100vh;
   background-image: url(../images/dodge-bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .principal__title {
-  font-size: 5rem;
+  font-size: 6rem;
   font-weight: 700;
   color: #fafafa;
+  margin-bottom: 180px;
 }
 
 .reserva {
@@ -181,14 +229,6 @@ header {
   height: 50px;
   margin: 20px;
   opacity: 0.6;
-}
-
-.about-us__img {
-  height: 250px;
-  background-image: url(../images/engine.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .card {

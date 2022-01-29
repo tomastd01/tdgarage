@@ -1,4 +1,4 @@
-@use 'why';
+@use 'content';
 @use 'footer';
 @import 'variables';
 
@@ -19,8 +19,8 @@ body {
     font-size: 1.1rem;    
 }
 
-header {
-    background-color: $bg-white;
+header, .navbar {
+    background-color: $bg-white !important;
 }
 
 .nav-link {
@@ -37,14 +37,15 @@ header {
 }
 
 .principal {
-    height: 90vh;
+    height: 100vh;
     background-image: url(../images/dodge-bg.jpg);
     @include bg-image;
 
     &__title {
-        font-size: 5rem;
+        font-size: 6rem;
         font-weight: 700;
         color: $bg-white;
+        margin-bottom: 180px;
     }
 }
 
@@ -88,12 +89,6 @@ header {
     }
 }
 
-
-.about-us__img {
-    height: 250px;
-    background-image: url(../images/engine.jpg);
-    @include bg-image;
-}
 
 .card {
     background-color: $bg-white;
