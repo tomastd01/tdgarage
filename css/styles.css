@@ -1,3 +1,75 @@
+header, .navbar {
+  background-color: #fafafa !important;
+}
+
+.navbar-brand {
+  transition: all 300ms ease;
+}
+.navbar-brand:hover {
+  opacity: 0.8;
+}
+
+.nav-link {
+  transition: all 300ms ease;
+}
+.nav-link:hover {
+  background-color: #d83939;
+  color: #fafafa !important;
+}
+
+.red-color {
+  color: #e90000;
+}
+
+.principal {
+  height: 100vh;
+  background-image: url(../images/dodge-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.principal__title {
+  font-size: 6rem;
+  font-weight: 700;
+  color: #fafafa;
+}
+
+.title-wrapper {
+  margin-top: 16%;
+}
+
+.button {
+  padding: 15px 50px;
+  font-weight: 700;
+  border-radius: 50px;
+  font-size: 17px;
+  transition: all 300ms ease;
+}
+.button--red {
+  background-color: #d83939;
+  border: 2px solid #d83939;
+  color: white;
+}
+.button--red:hover {
+  background-color: #e74343;
+  border-color: #e74343;
+  text-decoration: none;
+  color: #FFF;
+}
+.button--white {
+  border: 2px solid #fafafa;
+  color: #FFF;
+}
+.button--white:hover {
+  background-color: #fafafa;
+  text-decoration: none;
+  color: #d83939;
+}
+
+.us__content {
+  width: 50%;
+}
+
 .us__title {
   font-size: 60px;
   font-weight: 700;
@@ -7,42 +79,8 @@
   width: 450px;
 }
 
-.us__btn {
-  background-color: #d83939;
-  color: white;
-  padding: 15px 50px;
-  font-weight: 500;
-  border-radius: 50px;
-  font-size: 18px;
-  animation: all 500ms;
-}
-.us__btn:hover {
-  text-decoration: none;
-  color: white;
-}
-
-.us__circle {
-  width: 500px;
-  height: 500px;
-  border-radius: 50%;
-  background-color: #d83939;
-}
-
-.us__circle2 {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  background: repeating-linear-gradient(180deg, #fafafa, #fafafa 10px, #d83939 10px, #d83939 20px);
-  position: absolute;
-  right: 100px;
-}
-
-.us__img {
-  width: 400px;
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
-  position: absolute;
-  top: 1150px;
-  right: 320px;
+.why-title {
+  font-size: 50px;
 }
 
 .crd-container {
@@ -165,36 +203,6 @@ body {
   background-color: #fafafa;
   font-weight: 300;
   font-size: 1.1rem;
-}
-
-header, .navbar {
-  background-color: #fafafa !important;
-}
-
-.nav-link {
-  transition: all 300ms ease;
-}
-.nav-link:hover {
-  background-color: #d83939;
-  color: #fafafa !important;
-}
-
-.red-color {
-  color: #e90000;
-}
-
-.principal {
-  height: 100vh;
-  background-image: url(../images/dodge-bg.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.principal__title {
-  font-size: 6rem;
-  font-weight: 700;
-  color: #fafafa;
-  margin-bottom: 180px;
 }
 
 .reserva {

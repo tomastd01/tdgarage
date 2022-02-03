@@ -19,36 +19,6 @@ body {
     font-size: 1.1rem;    
 }
 
-header, .navbar {
-    background-color: $bg-white !important;
-}
-
-.nav-link {
-    transition: all 300ms ease;
-
-    &:hover {
-        background-color: $red-1;
-        color: $bg-white !important; 
-    }
-}
-
-.red-color {
-    color: $red-2;
-}
-
-.principal {
-    height: 100vh;
-    background-image: url(../images/dodge-bg.jpg);
-    @include bg-image;
-
-    &__title {
-        font-size: 6rem;
-        font-weight: 700;
-        color: $bg-white;
-        margin-bottom: 180px;
-    }
-}
-
 .reserva {
     background-color: $red-1;
     height: 80px;

@@ -1,6 +1,93 @@
 @import 'variables';
 
+// HEADER // 
+
+@mixin bg-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header, .navbar {
+    background-color: $bg-white !important;
+}
+
+.navbar-brand {
+    transition: all 300ms ease;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.nav-link {
+    transition: all 300ms ease;
+
+    &:hover {
+        background-color: $red-1;
+        color: $bg-white !important; 
+    }
+}
+
+.red-color {
+    color: $red-2;
+}
+
+.principal {
+    height: 100vh;
+    background-image: url(../images/dodge-bg.jpg);
+    @include bg-image;
+
+    &__title {
+        font-size: 6rem;
+        font-weight: 700;
+        color: $bg-white;
+    }
+}
+
+.title-wrapper {
+    margin-top: 16%;
+}
+
+.button {
+    padding: 15px 50px;
+    font-weight: 700;
+    border-radius: 50px;
+    font-size: 17px;
+
+    transition: all 300ms ease ;
+
+    &--red {
+        background-color: $red-1;
+        border: 2px solid $red-1;
+        color: white;
+
+        &:hover {
+            background-color: $red-3;
+            border-color: $red-3;
+            text-decoration: none;
+            color: #FFF;
+        }
+    }
+
+    &--white {
+        border: 2px solid $bg-white;
+        color: #FFF;
+
+        &:hover {
+            background-color: $bg-white;
+            text-decoration: none;
+            color: $red-1;
+        }
+    }
+    
+}
+
 // ABOUT US // 
+
+.us__content {
+    width: 50%;
+}
 
 .us__title {
     font-size: 60px;
@@ -11,47 +98,12 @@
     width: 450px;
 }
 
-.us__btn {
-    background-color: $red-1;
-    color: white;
-    padding: 15px 50px;
-    font-weight: 500;
-    border-radius: 50px;
-    font-size: 18px;
-
-    animation: all 500ms ;
-    
-    &:hover {
-        text-decoration: none;
-        color: white;
-    } 
-}
-
-.us__circle {
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    background-color: $red-1;
-}
-
-.us__circle2 {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    background: repeating-linear-gradient( 180deg, $bg-white, $bg-white 10px, $red-1 10px, $red-1 20px);
-    position: absolute;
-    right: 100px;
-}
-
-.us__img {
-    width: 400px;
-    box-shadow: 5px 5px 20px rgba(0,0,0, 0.5);
-    position: absolute;
-    top: 1150px;
-    right: 320px;
-}
 
 // WHY CHOOSE US //
+
+.why-title {
+    font-size: 50px;
+}
 
 .crd-container {
     display: grid;
