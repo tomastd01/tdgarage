@@ -2,12 +2,6 @@
 
 // HEADER // 
 
-@mixin bg-image {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
 header, .navbar {
     background-color: $bg-white !important;
 }
@@ -36,7 +30,9 @@ header, .navbar {
 .principal {
     height: 100vh;
     background-image: url(../images/dodge-bg.jpg);
-    @include bg-image;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
     &__title {
         font-size: 6rem;
