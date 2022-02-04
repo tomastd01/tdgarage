@@ -1,5 +1,6 @@
 @use 'content';
 @use 'footer';
+@use 'services';
 @import 'variables';
 
 @mixin bg-image {
@@ -86,53 +87,8 @@ body {
 }
 
 
-.title__bg {
-    height: 250px;
-    background-image: url(../images/car.jpg);
-    @include bg-image;
-}
 
-.title__h1 {
-    font-size: 64px;
-    font-weight: 700;
-    color: $bg-white;
-}
-
-.service__img {
-    width: 250px;
-    height: 400px;
-}
-
-.img_1 {
-    background-image: url(../images/1.jpg);
-    @include bg-image;
-}
-.img_2 {
-    background-image: url(../images/2.jpg);
-    @include bg-image;
-}
-.img_3 {
-    background-image: url(../images/3.jpg);
-    @include bg-image;
-}
-.img_4 {
-    background-image: url(../images/4.jpg);
-    @include bg-image;
-}
-.img_5 {
-    background-image: url(../images/5.jpg);
-    @include bg-image;
-}
-.img_6 {
-    background-image: url(../images/6.jpg);
-    @include bg-image;
-}
-
-#galeria {
-    display: none;
-}
-
-#diagnostico, .background {
+.background {
     background-color: $bg-dark;
 }
 
@@ -150,22 +106,4 @@ body {
     background-color: $red-3;
 }
 
-.dis {
-    display: none;
-}
 
-@media screen and (min-width: 992px) {
-    
-    #carouselExampleCaptions {
-        display: none;
-    }
-
-    #galeria {
-        display: block;
-    }
-
-    .dis {
-        display: inline;
-    }
-    
-}
