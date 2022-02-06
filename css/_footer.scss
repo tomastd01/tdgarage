@@ -23,6 +23,16 @@ footer {
     }
 }
 
+.copy {
+    height: 30px;
+    background-color: $bg-white;
+
+    &__text {
+        font-size: .7rem;
+        font-weight: 300px;
+    }
+}
+
 .cont { 
     @extend .links
 }

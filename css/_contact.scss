@@ -1,0 +1,56 @@
+@import 'variables';
+
+
+.form {
+    background-color: rgb(238, 238, 238);
+    border-radius: 50px;
+    padding: 60px 0px;
+
+    &__title {
+        color: $red-1;
+        font-weight: 700;
+        font-size: 38px;
+    }
+}
+
+.input {
+    background-color: rgb(226, 226, 226);
+    border-radius: 500px;
+    padding: 20px;
+    border: 0px;
+    margin: 5px 0px;
+}
+
+.text-area {
+    background-color: rgb(226, 226, 226);
+    border-radius: 25px;
+    border: 0px;
+    padding: 20px;
+}
+
+.form__content {
+    font-size: 14px;
+    font-weight: 500;
+    color: #616568;
+}
+
+.form__img-wrapper {
+    img {
+        width: 70%;
+    }
+}
+
+.form__text {
+    list-style: none;
+    line-height: 1.8;
+}
+
+.social {
+    padding: 5px;
+    &__ico {
+        color: $red-1;
+        &:hover {
+            color: $red-3;
+        }
+    }
+}

@@ -1,6 +1,7 @@
 @use 'content';
 @use 'footer';
 @use 'services';
+@use 'contact';
 @import 'variables';
 
 @mixin bg-image {
@@ -19,91 +20,4 @@ body {
     font-weight: 300;
     font-size: 1.1rem;    
 }
-
-.reserva {
-    background-color: $red-1;
-    height: 80px;
-
-    &__text {
-        color: $bg-white;
-        font-weight: 300;
-        font-size: 1.1em;
-        margin: 0 50px;
-    }
-
-    &__link {
-        color: $bg-white;
-        border: solid 2px $bg-white;
-        padding: 6px 16px;
-        margin-right: 50px;
-        transition: all 400ms;
-
-        &:hover {
-            text-decoration: none;
-            color: #FFF;
-            transform: scale(1.05);
-        }
-    }
-}
-
-.brands {
-    height: 80px;
-    margin: 40px 0;
-    background-color: $bg-white;
-
-    &__img {
-        height: 50px;
-        margin: 20px;
-        opacity: 0.6;
-    }
-}
-
-
-.card {
-    background-color: $bg-white;
-    font-size: 1rem;
-    line-height: 1.2rem;
-    transition: all 400ms ease-in-out;
-
-    &:hover {
-        border-color: $red-1 !important;
-    }
-}
-
-.line {
-    background-color: $red-2;
-    width: 100px;
-    height: 4px;
-}
-
-.copy {
-    height: 30px;
-    background-color: $bg-white;
-
-    &__text {
-        font-size: .7rem;
-        font-weight: 300px;
-    }
-}
-
-
-
-.background {
-    background-color: $bg-dark;
-}
-
-.scanner__img {
-    height: 300px;
-    background-image: url(../images/scan.jpg);
-    @include bg-image;
-}
-
-.red-btn {
-    background-color: $red-1;
-}
-
-.red-btn:hover {
-    background-color: $red-3;
-}
-
 

@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TD Garage | Contacto</title>
 
+  <link rel="icon" href="../images/favicon.png" type="image/x-icon">
+
   <meta name="description" content="Somos un taller de mecánica automotriz que tiene el objetivo de brindarte el mejor servicio para que tu auto no tenga que volver otra vez.">
 
   <meta name="keywords" content="MECÁNICA, AUTOMOTOR, TALLER, DIAGNOSTICO">
@@ -18,7 +20,7 @@
   <script defer src="https://kit.fontawesome.com/c775a9969b.js" crossorigin="anonymous"></script>
 
 </head>
-<body>
+<body class="contact">
 
     <header class="container-fluid shadow-lg sticky-top">
         <nav class="container navbar navbar-expand-lg navbar-light bg-light p-0">
@@ -51,44 +53,60 @@
         </nav>
     </header>
 
+    <!-- Titulo -->
+
     <section class="container-fluid p-0">
-        <div class="title__bg text-white d-flex justify-content-center align-items-center">      
-            <h1 class="text-center text-wrap p-4 title__h1">Contactanos.</h1>
+        <div class="title__bg text-white d-flex flex-column justify-content-end align-items-center">      
+            <h1 class="text-center text-wrap title__h1">Contactanos.</h1>
+            <img src="../images/inicio-wave.svg" alt="">
         </div>
     </section>
+
+    <!-- Formulario -->
 
     <section class="container py-5">
-        <div class="row">
-            <div class="col-md-8 d-flex flex-column align-items-center">
-                <h2 class="form_title text-center mb-4 h3">¡Envíanos un mensaje!</h2>
-                <div class="line mb-4"></div>
+        <div class="row form d-flex justify-content-center mx-1">
+            <div class="col-md-7 d-flex flex-column align-items-center">
+                <h2 class="form__title mb-4">¡Escribinos!</h2>
                 <form class="w-75 d-flex flex-column">
                     <div class="form-group">
-                      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre">
+                      <input type="text" class="form-control input" id="formGroupExampleInput" placeholder="Nombre">
                     </div>
                     <div class="form-group">
-                      <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="Email">
+                      <input type="email" class="form-control input" id="formGroupExampleInput2" placeholder="Email">
                     </div>
                     <div class="form-group">
-                        <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="Teléfono">
+                        <input type="number" class="form-control input" id="formGroupExampleInput2" placeholder="Teléfono">
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribí tu mensaje..."></textarea>
+                        <textarea class="form-control text-area mb-2" id="exampleFormControlTextarea1" rows="4" placeholder="Escribí tu mensaje..."></textarea>
                     </div>
-                    <button type="submit" class="btn red-btn w-25 align-self-center rounded-0 text-white">Enviar</button>
+                    <button type="submit" class="button button--red p-2">Enviar</button>
                   </form>
             </div>
-            <div class="col-md-4">
-                <div class="info text-center mt-5">
-                    <h3 class="h4 mb-3">¡Seguinos!</h3>
-                    <p class="info__text mb-1">direccion07@gmail.com</p>
-                    <p class="info__text mb-1">Dirección 1234, GBA.</p>
-                    <p class="info__text">11-1234-5678</p>
+            <div class="form__content col-md-5 mt-5 mt-md-0 d-flex flex-column justify-content-between">
+                <div class="form__img-wrapper d-flex justify-content-center pb-3">
+                    <img src="../images/engine2.png" alt="Motor">
                 </div>
-            </div>            
+                <div class="d-flex justify-content-center mr-4">
+                    <ul class="form__text">
+                        <li><i class="fas fa-map-marker-alt mr-1"></i> Dirección 1234, Buenos Aires.</li>
+                        <li><i class="fas fa-phone-alt mr-1"></i> +54 11 1234-5678</li>
+                        <li><i class="fas fa-envelope mr-1"></i> direccion07gmail.com</li>
+                    </ul>
+                </div>
+                <div class="social text-center">
+                    <a href=""><i class="social__ico fab fa-instagram"></i></a>
+                    <a href=""><i class="social__ico fab fa-facebook"></i></a>
+                    <a href=""><i class="social__ico fab fa-whatsapp"></i></a>  
+                </div>
+            </div>
         </div>
     </section>
 
+    <!-- Footer -->
+
+    <img src="../images/footer-wave.svg" alt="">
     <footer>
         <section class="footer container d-flex flex-column flex-sm-row justify-content-between pt-4 pb-1">
     

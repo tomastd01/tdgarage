@@ -81,6 +81,18 @@ header, .navbar {
 
 // ABOUT US // 
 
+.brands {
+    height: 80px;
+    margin: 40px 0;
+    background-color: $bg-white;
+
+    &__img {
+        height: 50px;
+        margin: 20px;
+        opacity: 0.6;
+    }
+}
+
 .us__content {
     width: 50%;
 }

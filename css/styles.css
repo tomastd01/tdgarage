@@ -51,8 +51,8 @@ header, .navbar {
   color: white;
 }
 .button--red:hover {
-  background-color: #e74343;
-  border-color: #e74343;
+  background-color: #f34949;
+  border-color: #f34949;
   text-decoration: none;
   color: #FFF;
 }
@@ -64,6 +64,17 @@ header, .navbar {
   background-color: #fafafa;
   text-decoration: none;
   color: #d83939;
+}
+
+.brands {
+  height: 80px;
+  margin: 40px 0;
+  background-color: #fafafa;
+}
+.brands__img {
+  height: 50px;
+  margin: 20px;
+  opacity: 0.6;
 }
 
 .us__content {
@@ -166,6 +177,15 @@ footer {
   color: #fafafa;
 }
 
+.copy {
+  height: 30px;
+  background-color: #fafafa;
+}
+.copy__text {
+  font-size: 0.7rem;
+  font-weight: 300px;
+}
+
 .ico--fb {
   color: #292929;
 }
@@ -261,6 +281,10 @@ footer {
   transform: scale(1.1);
 }
 
+.background {
+  background-color: #292929;
+}
+
 .d__content {
   width: 50%;
 }
@@ -286,6 +310,57 @@ footer {
   width: 90%;
 }
 
+.form {
+  background-color: #eeeeee;
+  border-radius: 50px;
+  padding: 60px 0px;
+}
+.form__title {
+  color: #d83939;
+  font-weight: 700;
+  font-size: 38px;
+}
+
+.input {
+  background-color: #e2e2e2;
+  border-radius: 500px;
+  padding: 20px;
+  border: 0px;
+  margin: 5px 0px;
+}
+
+.text-area {
+  background-color: #e2e2e2;
+  border-radius: 25px;
+  border: 0px;
+  padding: 20px;
+}
+
+.form__content {
+  font-size: 14px;
+  font-weight: 500;
+  color: #616568;
+}
+
+.form__img-wrapper img {
+  width: 70%;
+}
+
+.form__text {
+  list-style: none;
+  line-height: 1.8;
+}
+
+.social {
+  padding: 5px;
+}
+.social__ico {
+  color: #d83939;
+}
+.social__ico:hover {
+  color: #f34949;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -295,85 +370,6 @@ body {
   background-color: #fafafa;
   font-weight: 300;
   font-size: 1.1rem;
-}
-
-.reserva {
-  background-color: #d83939;
-  height: 80px;
-}
-.reserva__text {
-  color: #fafafa;
-  font-weight: 300;
-  font-size: 1.1em;
-  margin: 0 50px;
-}
-.reserva__link {
-  color: #fafafa;
-  border: solid 2px #fafafa;
-  padding: 6px 16px;
-  margin-right: 50px;
-  transition: all 400ms;
-}
-.reserva__link:hover {
-  text-decoration: none;
-  color: #FFF;
-  transform: scale(1.05);
-}
-
-.brands {
-  height: 80px;
-  margin: 40px 0;
-  background-color: #fafafa;
-}
-.brands__img {
-  height: 50px;
-  margin: 20px;
-  opacity: 0.6;
-}
-
-.card {
-  background-color: #fafafa;
-  font-size: 1rem;
-  line-height: 1.2rem;
-  transition: all 400ms ease-in-out;
-}
-.card:hover {
-  border-color: #d83939 !important;
-}
-
-.line {
-  background-color: #e90000;
-  width: 100px;
-  height: 4px;
-}
-
-.copy {
-  height: 30px;
-  background-color: #fafafa;
-}
-.copy__text {
-  font-size: 0.7rem;
-  font-weight: 300px;
-}
-
-.background {
-  background-color: #292929;
-}
-
-.scanner__img {
-  height: 300px;
-  background-image: url(../images/scan.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.red-btn {
-  background-color: #d83939;
-}
-
-.red-btn:hover {
-  background-color: #e74343;
 }
 
 /*# sourceMappingURL=styles.css.map */
