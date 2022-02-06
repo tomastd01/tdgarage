@@ -88,7 +88,7 @@ header, .navbar {
 
     &__img {
         height: 50px;
-        margin: 20px;
+        margin: 18px;
         opacity: 0.6;
     }
 }
@@ -103,7 +103,13 @@ header, .navbar {
 }
 
 .us__text {
-    width: 450px;
+    width: 90%;
+}
+
+.us__img {
+    img {
+        width: 100%;
+    }
 }
 
 
@@ -184,5 +190,35 @@ header, .navbar {
 
     .circle {
         margin: 0 0 15px;
+    }
+
+    .us__img, .dis {
+        display: none;
+    
+        img {
+            display: none;
+        }
+    }
+
+    .us__content {
+        width: 100%;
+    }
+
+    .us__text {
+        width: 70%;
+        text-align: center;
+    }
+
+    .us__title {
+        text-align: center;
+        padding: 0px 10px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .dis-sm {
+        display: none;
     }
 }
