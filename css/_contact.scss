@@ -54,3 +54,18 @@
         }
     }
 }
+
+@media screen and (max-width: 750px) {
+    .form__content {
+        display: none;
+
+        img, .social {
+            display: none;
+        }
+    }
+
+    .cont-h1 {
+        font-size: 60px;
+        padding-bottom: 60px;
+    }
+}

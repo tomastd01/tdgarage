@@ -185,6 +185,28 @@ header, .navbar {
   .dis-sm {
     display: none;
   }
+
+  .principal__title {
+    font-size: 5rem;
+    padding-top: 40px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .principal__title {
+    font-size: 4rem;
+    padding-top: 40px;
+  }
+}
+@media screen and (min-height: 800px) {
+  .principal__title {
+    padding-top: 100px;
+  }
 }
 footer {
   background-color: #797979;
@@ -330,7 +352,7 @@ footer {
 
 .d__text {
   color: #fafafa;
-  width: 450px;
+  width: 90%;
 }
 
 .d__img {
@@ -340,6 +362,37 @@ footer {
   width: 90%;
 }
 
+@media screen and (max-width: 992px) {
+  .d__img {
+    display: none;
+  }
+  .d__img img {
+    display: none;
+  }
+
+  .d__content {
+    width: 100%;
+  }
+
+  .d__text {
+    width: 70%;
+    text-align: center;
+  }
+
+  .d__title {
+    text-align: center;
+    padding: 0px 10px;
+  }
+
+  .title__h1 {
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .serv__content > .serv__text.fade {
+    opacity: 1;
+  }
+}
 .form {
   background-color: #eeeeee;
   border-radius: 50px;
@@ -391,6 +444,19 @@ footer {
   color: #f34949;
 }
 
+@media screen and (max-width: 750px) {
+  .form__content {
+    display: none;
+  }
+  .form__content img, .form__content .social {
+    display: none;
+  }
+
+  .cont-h1 {
+    font-size: 60px;
+    padding-bottom: 60px;
+  }
+}
 html {
   scroll-behavior: smooth;
 }
